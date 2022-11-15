@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `status` ENUM('active','suspended','pending','deleted') CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci NOT NULL DEFAULT 'pending' AFTER `is_featured`;

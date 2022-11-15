@@ -1,0 +1,241 @@
+@font-face {
+    font-family: 'montserrat_normal';
+    src: url('font/montserratalternates-regular-webfont.woff2') format('woff2'),
+        url('font/montserratalternates-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'montserrat_heading';
+    src: url('font/montserratsubrayada-bold-webfont.woff2') format('woff2'),
+        url('font/montserratsubrayada-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+}
+
+body {
+    font-family: 'montserrat_normal';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.font-heading {
+    font-family: 'montserrat_heading';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+}
+
+.featured-number {
+    font-family: 'montserrat_normal';
+    font-weight: normal;
+    font-style: normal;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+.login_btn {
+    background-color: #c81919;
+    color: #fff;
+    font-weight: bolder;
+    padding: 10px 20px 10px 20px;
+}
+
+.login_btn:hover {
+    background-color: transparent !important;
+    color: #c81919 !important;
+    border: #c81919 2px solid !important;
+}
+
+.heading-red {
+    color: #c81919 !important;
+    font-family: 'montserrat_heading';
+    font-size: 18px;
+}
+
+.heading-white {
+    color: #fff !important;
+    font-family: 'montserrat_heading';
+    font-size: 18px;
+}
+
+.heading-black {
+    color: #000000 !important;
+    font-family: 'montserrat_heading';
+    font-size: 18px;
+}
+
+.register_btn {
+    background-color: #707070 !important;
+    color: #fff !important;
+    font-weight: bolder;
+    padding: 10px 20px 10px 20px;
+    margin-left: 10px;
+}
+
+.filter_btn {
+    background-color: #fff;
+    color: #707070;
+    font-weight: bolder;
+    border: #707070 2px solid;
+    padding: 10px 20px 10px 20px;
+}
+
+.filter_btn:hover {
+    background-color: #707070;
+    color: #fff !important;
+    border: #fff 2px solid !important;
+}
+
+.register_btn:hover {
+    background-color: white !important;
+    color: #707070 !important;
+    border: #707070 2px solid !important;
+}
+
+.bg_gray {
+    background-color: #707070 !important;
+    color: #fff !important;
+}
+
+.header {
+    background-image: url('images/head.png');
+    background-size: 80px 100px;
+}
+
+.start-head-img {
+    background-image: url('images/Image\ 6.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+}
+
+.custom-border {
+    border: black 2px solid;
+    border-radius: 25px;
+}
+
+.custom-border-right {
+    border-right: #707070 0.5px solid;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    border: none;
+    width: 100%;
+    font-family: 'montserrat_heading';
+    justify-items: last baseline;
+    text-align: left;
+    padding: 10px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    float: right !important;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #c81919;
+    color: #fff;
+}
+
+.new-proposal {
+    background-image: url('images/2.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+}
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon {
+    color: #000000;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon {
+    color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+    background-color: #fff;
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.title-limit {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+.header-top-center{
+    display: block;
+}
+
+@media only screen and (min-width: 768px)  {
+    .header-top-center{
+        display: none;
+    }
+}
